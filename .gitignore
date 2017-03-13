@@ -1,23 +1,22 @@
-# Files
-*.conf
-*.db
-*.db-journal
-*.log
-*.noload
-*.sqlite
-*.txt
+*.pid
 *.xml
-.HA_VERSION
-known_devices.yaml
-google_calendars.yaml
-secrets.yaml
-.google.token
-
-# Directories
-icloud
-deps
+*.csr
+*.crt
+*.key
 www
-
-# Python Caches
-__pycache__
-*.pyc
+OZW_Log.txt
+home-assistant.log
+home-assistant_v2.db
+*.db-journal
+lib
+deps
+tts
+secrets.yaml
+known_devices.yaml
+*.conf
+plex.conf
+phue.conf
+harmony_media_room.conf
+pyozw.sqlite
+.*
+!/.gitignore
