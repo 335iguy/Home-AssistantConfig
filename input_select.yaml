@@ -1,0 +1,39 @@
+  harmony:
+    name: Harmony Activity
+    options:
+      - Select Input
+      - Power Off
+      - Entertain
+      - Netflix & Chill
+    icon: mdi:remote
+  dishwasher_status:
+    name: Dishwasher Status
+    options:
+      - Dirty
+      - Running
+      - Drying
+      - Clean
+    initial: Dirty
+    icon: mdi:washing-machine
+  washing_machine_status:
+    name: Washer Status
+    options:
+      - Idle
+      - Running
+      - Clean
+    initial: Idle
+    icon: mdi:washing-machine
+  dryer_status:
+    name: Dryer Status
+    options:
+      - Idle
+      - Running
+      - Dried
+    initial: Idle
+    icon: mdi:washing-machine
+  cats_fed:
+    name: Have the Cats Been Fed?
+    options:
+      - 'Yes'
+      - 'No'
+    icon: mdi:cat

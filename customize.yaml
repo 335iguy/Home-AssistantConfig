@@ -1,0 +1,105 @@
+### CUSTOMIZE ###
+
+## Default View ##
+media_player.living_room_home:
+  icon: mdi:google
+  friendly_name: Google Home
+media_player.meowcast:
+  icon: mdi:google-chrome    
+switch.livingroom_lamp:
+  friendly_name: Home Lamp
+  icon: mdi:lamp
+switch.livingroom_couchL:
+  friendly_name: Couch Lamp L
+  icon: mdi:lamp
+switch.livingroom_couchR:
+  friendly_name: Couch Lamp R
+  icon: mdi:lamp
+switch.bedroom_icelights:
+  friendly_name: Bed Lights
+  icon: mdi:hotel
+switch.office_lamp:
+  friendly_name: Office Lamp
+  icon: mdi:laptop
+## OTHER ##
+# Dark Sky Weather #
+sensor.dark_sky_daily_high_temperature:
+  friendly_name: Today's High
+sensor.dark_sky_daily_low_temperature:
+  friendly_name: Today's Low
+sensor.dark_sky_temperature:
+  friendly_name: Current Temperature
+# Phone Battery Life #
+sensor.thepixel:
+  friendly_name: Andrew's Pixel
+  icon: mdi:battery
+sensor.thegalaxy:
+  friendly_name: Bri's Galaxy
+  icon: mdi:battery
+# Garage ESP8266 #
+sensor.garage_humidity:
+  icon: mdi:oil-temperature
+sensor.garage_temperature:
+  icon: mdi:temperature-fahrenheit
+# Speedtest #
+sensor.speedtest_ping:
+  icon: mdi:speedometer
+  friendly_name: Ping
+sensor.speedtest_download:
+  icon: mdi:download
+  friendly_name: Download
+sensor.speedtest_upload:
+  icon: mdi:upload
+  friendly_name: Upload
+# Web Links #
+weblink.router:
+  icon: mdi:router-wireless
+# Living Room Temp Sensor #
+sensor.lr_temperature:
+  friendly_name: Temperature
+  icon: mdi:temperature-fahrenheit
+sensor.lr_humidity:
+  friendly_name: Humidity
+  icon: mdi:oil-temperature
+# Bedroom Temp Sensor #
+sensor.dht_sensor_humidity:
+  friendly_name: Humidity
+  icon: mdi:oil-temperature
+sensor.dht_sensor_temperature:
+  friendly_name: Temperature
+  icon: mdi:temperature-fahrenheit
+# Harmony #
+sensor.current_activity:
+  hidden: false
+  entity_picture: http://wreckage.johndenverschoolofflight.com/hass/harmony.png
+  friendly_name: "Current Activity"
+# Known Devices #
+device_tracker.galaxy_bri:
+  friendly_name: Bri
+device_tracker.pixel_andrew:
+  friendly_name: Andrew
+device_tracker.henneseyvenom:
+  friendly_name: HenneseyVenom
+  icon: mdi:windows
+sensor.home_to_andrews_work:
+  icon: mdi:fire
+sensor.home_to_bris_work:
+  icon: mdi:bug
+sensor.home_to_shop:
+  icon: mdi:weight
+sensor.bris_work_to_home:
+  icon: mdi:home
+group.BeamerAndStella:
+  friendly_name: Beamer and Stella
+group.cleanthings:
+  friendly_name: Clean Stuffs
+group.masterbedroom:
+  friendly_name: Master Bedroom
+group.LivingRoomLights:
+  friendly_name: Living Room Lights
+group.LRsensors:
+  friendly_name: Sensors
+group.TVControl:
+  friendly_name: TV Control
+group.outsidetemp:
+  friendly_name: Charlotte Weather

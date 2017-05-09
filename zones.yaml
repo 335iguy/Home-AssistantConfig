@@ -1,0 +1,19 @@
+- name: Home
+  latitude: !secret latitude
+  longitude: !secret longitude
+  radius: 150
+  icon: mdi:account-multiple
+- name: AWork
+  latitude: !secret a_work_lat
+  longitude: !secret a_work_long
+  radius: 200
+  icon: mdi:worker
+- name: BWork
+  latitude: !secret b_work_lat
+  longitude: !secret b_work_long
+  radius: 200
+  icon: mdi:worker
+- name: Shop
+  latitude: !secret shop_lat
+  longitude: !secret shop_long
+  radius: 200
