@@ -137,7 +137,7 @@
       message: "It's getting cold. You shoud adjust the thermostat."
 #####################################################
 #                                                   #
-#              Bri is home                     #
+#              [REDACTED] is home                     #
 #                                                   #
 #####################################################
 - alias: [REDACTED] arrives home
@@ -155,7 +155,7 @@
       entity_id: script.[REDACTED]_home
 #####################################################
 #                                                   #
-#              Andrew is home                     #
+#              [REDACTED] is home                     #
 #                                                   #
 #####################################################
 - alias: [REDACTED] arrives home
