@@ -22,25 +22,25 @@
      sequence:
        - service: notify.notify
          data:
-             message: 'Andrew has arrived home'
+             message: '[REDACTED] has arrived home'
        - service: homeassisant.turn_on
          entity_id: media_player.living_room_home
        - service: tts.google_say
          entity_id: media_player.living_room_home
          data:
-             message: 'Andrew has arrived home.'
+             message: '[REDACTED] has arrived home.'
        - service: homeassisant.turn_off
          entity_id: media_player.living_room_home
  bri_home:
      sequence:
        - service: notify.notify
          data:
-             message: 'Bri has arrived home'
+             message: '[REDACTED] has arrived home'
        - service: homeassisant.turn_on
          entity_id: media_player.living_room_home
        - service: tts.google_say
          entity_id: media_player.living_room_home
          data:
-             message: 'Bree has arrived home.'
+             message: '[REDACTED] has arrived home.'
        - service: homeassisant.turn_off
          entity_id: media_player.living_room_home
