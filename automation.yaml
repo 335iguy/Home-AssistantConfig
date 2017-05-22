@@ -140,11 +140,11 @@
 #              Bri is home                     #
 #                                                   #
 #####################################################
-- alias: Bri arrives home
+- alias: [REDACTED] arrives home
   hide_entity: False
   trigger:
     platform: state
-    entity_id: device_tracker.galaxy_bri
+    entity_id: device_tracker.galaxy_[REDACTED]
     to: 'home'
   condition:
     condition: time
@@ -152,17 +152,17 @@
     before: '18:00:00'
   action:
     - service: script.turn_on
-      entity_id: script.bri_home
+      entity_id: script.[REDACTED]_home
 #####################################################
 #                                                   #
 #              Andrew is home                     #
 #                                                   #
 #####################################################
-- alias: Andrew arrives home
+- alias: [REDACTED] arrives home
   hide_entity: False
   trigger:
     platform: state
-    entity_id: device_tracker.pixel_andrew
+    entity_id: device_tracker.pixel_[REDACTED]
     to: 'home'
   condition:
     condition: time
@@ -170,7 +170,7 @@
     before: '20:00:00'
   action:
     - service: script.turn_on
-      entity_id: script.andrew_home
+      entity_id: script.[REDACTED]_home
 ###############################################################################
 # Turn indoor lights on 60 minutes before sunset
 ###############################################################################
@@ -348,10 +348,10 @@
     condition: and
     conditions:
       - condition: state
-        entity_id: 'device_tracker.pixel_andrew'
+        entity_id: 'device_tracker.pixel_[REDACTED]'
         state: 'not_home'
       - condition: state
-        entity_id: 'device_tracker.galaxy_bri'
+        entity_id: 'device_tracker.galaxy_[REDACTED]'
         state: 'not_home'
   action:
     - service: notify.notify
@@ -371,10 +371,10 @@
 #    condition: and
 #    conditions:
 #      - condition: state
-#        entity_id: 'device_tracker.pixel_andrew'
+#        entity_id: 'device_tracker.pixel_[REDACTED]'
 #        state: 'not_home'
 #      - condition: state
-#        entity_id: 'device_tracker.galaxy_bri'
+#        entity_id: 'device_tracker.galaxy_[REDACTED]'
 #        state: 'not_home'
 #  action:
 #    - service: notify.notify
@@ -394,10 +394,10 @@
     condition: or
     conditions:
       - condition: state
-        entity_id: 'device_tracker.pixel_andrew'
+        entity_id: 'device_tracker.pixel_[REDACTED]'
         state: 'home'
       - condition: state
-        entity_id: 'device_tracker.galaxy_bri'
+        entity_id: 'device_tracker.galaxy_[REDACTED]'
         state: 'home'
   action:
     - service: notify.notify
