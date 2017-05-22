@@ -23,8 +23,8 @@ include:
   #Harmony
   - sensor.current_activity
   #Device Tracker
-  - device_tracker.galaxy_bri
-  - device_tracker.pixel_andrew
+  - device_tracker.galaxy_[REDACTED]
+  - device_tracker.pixel_[REDACTED]
   # RPi Stats
   - sensor.cpu_use
   - sensor.ram_use
