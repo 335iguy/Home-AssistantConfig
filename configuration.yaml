@@ -44,7 +44,7 @@ http:
   api_password: !secret api_password
   ssl_certificate: !secret ssl_cert
   ssl_key: !secret ssl_key
-  base_url: 12038home.duckdns.org
+  base_url: [REDACTED]
   cors_allowed_origins:
     - https://google.com
     - https://home-assistant.io
