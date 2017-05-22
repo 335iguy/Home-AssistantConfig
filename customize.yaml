@@ -37,9 +37,9 @@ sensor.thegalaxy:
   friendly_name: Bri's Galaxy
   icon: mdi:battery
 # Garage ESP8266 #
-sensor.garage_humidity:
+sensor.mbhumidity:
   icon: mdi:oil-temperature
-sensor.garage_temperature:
+sensor.mbtemperature:
   icon: mdi:temperature-fahrenheit
 # Speedtest #
 sensor.speedtest_ping:

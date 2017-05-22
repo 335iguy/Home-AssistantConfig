@@ -1,0 +1,96 @@
+
+Google_Home:
+  hide_if_away: false
+  mac: F4:F5:D8:B1:EC:1C
+  name: f4f5d8b1ec1c
+  picture:
+  track: false
+  vendor: Google, Inc.
+
+Pixel_Andrew:
+  hide_if_away: false
+  mac: AC:37:43:A8:D1:F3
+  name: ThePixel
+  picture: /local/andrew.jpg
+  track: true
+  vendor: HTC Corporation
+
+000420e8191d:
+  hide_if_away: false
+  mac: 00:04:20:E8:19:1D
+  name: 000420e8191d
+  picture:
+  track: false
+  vendor: Slim Devices, Inc.
+
+6cadf849d7df:
+  hide_if_away: false
+  mac: 6C:AD:F8:49:D7:DF
+  name: 6cadf849d7df
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+
+a020a601fe0b:
+  hide_if_away: false
+  mac: A0:20:A6:01:FE:0B
+  name: a020a601fe0b
+  picture:
+  track: false
+  vendor: Espressif Inc.
+
+HenneseyVenom:
+  hide_if_away: false
+  mac: E8:DE:27:C9:43:26
+  name: HenneseyVenom
+  picture:
+  track: true
+  vendor: TP-LINK TECHNOLOGIES CO.,LTD.
+
+Galaxy_Bri:
+  hide_if_away: false
+  mac: 60:F1:89:E5:6A:D9
+  name: GalaxyS7E
+  picture: /local/bri.jpg
+  track: true
+  vendor: Murata Manufacturing Co., Ltd.
+
+a020a61262e1:
+  hide_if_away: false
+  mac: A0:20:A6:12:62:E1
+  name: a020a61262e1
+  picture:
+  track: false
+  vendor: Espressif Inc.
+
+4c0bbe48e709:
+  hide_if_away: false
+  mac: 4C:0B:BE:48:E7:09
+  name: 4c0bbe48e709
+  picture:
+  track: false
+  vendor: Microsoft
+
+c8a823457c33:
+  hide_if_away: false
+  mac: C8:A8:23:45:7C:33
+  name: c8a823457c33
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+8871e5c464bd:
+  hide_if_away: false
+  mac: 88:71:E5:C4:64:BD
+  name: 8871e5c464bd
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+fcdbb304cc43:
+  hide_if_away: false
+  mac: FC:DB:B3:04:CC:43
+  name: fcdbb304cc43
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.

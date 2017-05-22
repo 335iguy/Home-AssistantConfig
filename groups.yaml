@@ -11,13 +11,15 @@ OutsideTemp:
   - sensor.dark_sky_daily_high_temperature
   - sensor.dark_sky_daily_low_temperature
   - sensor.dark_sky_temperature
-  - sensor.pollen
+  - sensor.pollen_level
 Links:
   - weblink.router
   - weblink.github
 MasterBedroom:
   - media_player.meowcast
   - switch.bedroom_icelights
+  - sensor.mbtemperature
+  - sensor.mbhumidity
 LivingRoomLights:
   - light.google_lamp
   - light.couch_left
@@ -25,13 +27,10 @@ LivingRoomLights:
 LRSensors:
   - sensor.dht_sensor_temperature
   - sensor.dht_sensor_humidity
-  - sensor.lr_motion
 TVControl:
   - input_select.harmony
   - sensor.current_activity
 MainGarage:
-  - sensor.garage_temperature
-  - sensor.garage_humidity
 Techy:
   - sensor.cpu_use
   - sensor.ram_use
@@ -40,14 +39,6 @@ Techy:
   - sensor.ha_current_version
   - sensor.ha_installed_version
   - sensor.ha_last_restart
-Tasker1:
-  - light.google_lamp
-  - light.couch_left
-  - light.couch_right
-  - device_tracker.galaxy_bri
-  - device_tracker.pixel_andrew
-  - sensor.thepixel
-  - sensor.thegalaxy
 Travel:
   - sensor.home_to_andrews_work
   - sensor.home_to_bris_work
@@ -61,11 +52,17 @@ Automations:
   - automation.bri_arrives_home
   - automation.andrew_arrives_home
   - automation.indoor_lights_on_before_sunset
-  #- automation.notify_if_light_is_on
+  - automation.notify_if_light_is_on
   - automation.washer_completes_wash
   - automation.dryer_completes_cycle
   - automation.dishwasher_starts_cycle
   - automation.dishwasher_completes_cycle
+  - automation.hass_startup_notification
+  - automation.hass_update_notification
+  - automation.living_room_2030_dim
+  - automation.living_room_2200_dim
+  - automation.ds_ecobee_away
+  - automation.ds_ecobee_home
 Scripts:
   - script.test_tts
   - script.bri_home
@@ -94,24 +91,31 @@ LivingRoom:
   name: Living Room
   view: yes
   entities:
+    - climate.downstairs
+    - sensor.downstairs_temperature
+    - binary_sensor.downstairs_occupancy
+    - group.LRSensors
     - group.tvcontrol
     - group.livingroomlights
     - group.livingroommedia
     - group.livingroomhouse
     - media_player.living_room_home
+    - sensor.operating_mode
+    - sensor.mode
+    - sensor.fan_switch
 Bedroom:
-  name: Bedroom
+  name: Master Bedroom
   view: yes
   entities:
     - group.masterbedroom
 Garage:
   name: Garage
-  view: yes
+  view: no
   entities:
     - group.maingarage
 Office:
   name: Office
-  view: yes
+  view: no
   entities:
     - switch.office_lamp
     - device_tracker.henneseyvenom

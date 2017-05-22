@@ -1,7 +1,6 @@
 include:
   entities:
   #Media Players
-  - media_player.meowcast
   - media_player.living_room_home
   #Temperatures
   - sensor.dark_sky_daily_high_temperature
@@ -18,11 +17,6 @@ include:
   - sensor.thegalaxy
   - sensor.thepixel
   #Lights
-  - switch.livingroom_couchr
-  - switch.livingroom_couchl
-  - switch.bedroom_icelights
-  - switch.office_lamp
-  - switch.livingroom_lamp
   - light.google_lamp
   - light.couch_left
   - light.couch_right
@@ -31,9 +25,13 @@ include:
   #Device Tracker
   - device_tracker.galaxy_bri
   - device_tracker.pixel_andrew
-  # Motion Sensors
-  - sensor.garage_motion
-  - sensor.lr_motion
   # RPi Stats
   - sensor.cpu_use
   - sensor.ram_use
+  # Ecobee
+  - climate.downstairs
+  - sensor.operating_mode
+  - sensor.mode
+  - sensor.fan_switch
+  - sensor.downstairs_temperature
+  - binary_sensor.downstairs_occupancy

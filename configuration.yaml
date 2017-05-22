@@ -44,7 +44,7 @@ http:
   api_password: !secret api_password
   ssl_certificate: !secret ssl_cert
   ssl_key: !secret ssl_key
-  base_url: !secret base_url
+  base_url: 12038home.duckdns.org
   cors_allowed_origins:
     - https://google.com
     - https://home-assistant.io
@@ -72,10 +72,10 @@ device_tracker:
      - !secret dev_tracker_bri
      - !secret dev_tracker_andrew
     consider_home: 180
-    home_interval: 10
-  - platform: owntracks
-    max_gps_accuracy: 200
-    waypoints: True
+    home_interval: 60
+#  - platform: owntracks
+#    max_gps_accuracy: 200
+#    waypoints: True
 ########## ZONES ##########
 zone: !include zones.yaml
 ########## RECORDER ##########
@@ -85,23 +85,11 @@ recorder:
 notify:
   platform: pushbullet
   api_key: !secret pushbullet_key
-########## EMULATED HUE ##########
-emulated_hue:
-  host_ip: 10.0.0.106
-  listen_port: 80
-  off_maps_to_on_domains:
-    - script
-    - scene
-  expose_by_default: true
-  exposed_domains:
-    - light
-    - switch
-    - scene
-    - script
-    - media_player
-    - group
 ########## CONFIG TAB ##########
 config:
+########## ECOBEE ##########
+ecobee:
+  api_key: !secret ecobee_api
 ########## TRADFRI ##########
 tradfri:
   host: 10.0.0.101
