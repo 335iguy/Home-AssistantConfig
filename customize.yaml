@@ -31,10 +31,10 @@ sensor.dark_sky_temperature:
   friendly_name: Current Temperature
 # Phone Battery Life #
 sensor.thepixel:
-  friendly_name: Andrew's Pixel
+  friendly_name: [REDACTED]'s Pixel
   icon: mdi:battery
 sensor.thegalaxy:
-  friendly_name: Bri's Galaxy
+  friendly_name: [REDACTED]'s Galaxy
   icon: mdi:battery
 # Garage ESP8266 #
 sensor.mbhumidity:
@@ -74,23 +74,23 @@ sensor.current_activity:
   entity_picture: http://wreckage.johndenverschoolofflight.com/hass/harmony.png
   friendly_name: "Current Activity"
 # Known Devices #
-device_tracker.galaxy_bri:
-  friendly_name: Bri
-device_tracker.pixel_andrew:
-  friendly_name: Andrew
+device_tracker.galaxy_[REDACTED]:
+  friendly_name: [REDACTED]
+device_tracker.pixel_[REDACTED]:
+  friendly_name: [REDACTED]
 device_tracker.henneseyvenom:
   friendly_name: HenneseyVenom
   icon: mdi:windows
-sensor.home_to_andrews_work:
+sensor.home_to_[REDACTED]s_work:
   icon: mdi:fire
-sensor.home_to_bris_work:
+sensor.home_to_[REDACTED]s_work:
   icon: mdi:bug
 sensor.home_to_shop:
   icon: mdi:weight
-sensor.bris_work_to_home:
+sensor.[REDACTED]s_work_to_home:
   icon: mdi:home
-group.BeamerAndStella:
-  friendly_name: Beamer and Stella
+group.[REDACTED]And[REDACTED]:
+  friendly_name: [REDACTED] and [REDACTED]
 group.cleanthings:
   friendly_name: Clean Stuffs
 group.masterbedroom:
