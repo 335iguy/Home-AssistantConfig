@@ -40,17 +40,17 @@ Techy:
   - sensor.ha_installed_version
   - sensor.ha_last_restart
 Travel:
-  - sensor.home_to_andrews_work
-  - sensor.home_to_bris_work
+  - sensor.home_to_[REDACTED]s_work
+  - sensor.home_to_[REDACTED]s_work
   - sensor.home_to_shop
-  - sensor.bris_work_to_home
+  - sensor.[REDACTED]s_work_to_home
 Automations:
   - automation.lr_lights_on_movement
   - automation.lr_off
   - automation.high_temp_in_living_room
   - automation.low_temp_in_living_room
-  - automation.bri_arrives_home
-  - automation.andrew_arrives_home
+  - automation.[REDACTED]_arrives_home
+  - automation.[REDACTED]_arrives_home
   - automation.indoor_lights_on_before_sunset
   - automation.notify_if_light_is_on
   - automation.washer_completes_wash
@@ -65,13 +65,13 @@ Automations:
   - automation.ds_ecobee_home
 Scripts:
   - script.test_tts
-  - script.bri_home
-  - script.andrew_home
+  - script.[REDACTED]_home
+  - script.[REDACTED]_home
 CleanThings:
   - input_select.dishwasher_status
   - input_select.dryer_status
   - input_select.washing_machine_status
-BeamerAndStella:
+[REDACTED]And[REDACTED]:
   - input_select.cats_fed
 ########## VIEWS ##########
 default_view:
@@ -79,12 +79,12 @@ default_view:
   icon: mdi:home
   view: yes
   entities:
-    - device_tracker.galaxy_bri
-    - device_tracker.pixel_andrew
+    - device_tracker.galaxy_[REDACTED]
+    - device_tracker.pixel_[REDACTED]
     - sensor.thepixel
     - sensor.thegalaxy
     - group.outsidetemp
-    - group.BeamerAndStella
+    - group.[REDACTED]And[REDACTED]
     - group.cleanthings
     - group.travel
 LivingRoom:
