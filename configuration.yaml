@@ -25,7 +25,7 @@ remote:
     name: livingroom
     host: 10.0.0.105
     port: 5222
-    scan_interval: 45
+    interval_seconds: 60
 ########## Web Links ##########
 weblink: !include web_links.yaml
 ########## Groups ##########
